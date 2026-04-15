@@ -1,0 +1,137 @@
+/* Reset & Base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #0f0f0f;
+    color: #f5f5f5;
+    line-height: 1.6;
+    padding: 40px;
+}
+
+/* Headings */
+h1 {
+    font-size: 2.8rem;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+h2 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: #cccccc;
+    font-weight: 400;
+}
+
+/* Links */
+a {
+    color: #4da3ff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+/* Lists */
+ul, ol {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+li {
+    margin-bottom: 6px;
+}
+
+/* Highlight favorite films */
+.FavMovie {
+    color: #ffd166;
+    font-weight: bold;
+}
+
+/* Paragraph */
+p {
+    margin-top: 20px;
+    max-width: 600px;
+}
+
+/* Image styling */
+img {
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+}
+
+/* Layout spacing improvement */
+br {
+    display: none;
+}
+
+/* Container feel */
+body > * {
+    max-width: 800px;
+}
+
+/* Button-style link (YouTube) */
+a[href*="youtube"] {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 16px;
+    background-color: #ff3b3b;
+    color: white;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+a[href*="youtube"]:hover {
+    background-color: #cc2f2f;
+}
+
+/* Back to top */
+a[href="#top"] {
+    display: inline-block;
+    margin-top: 40px;
+    font-size: 0.9rem;
+    opacity: 0.7;
+}
+
+a[href="#top"]:hover {
+    opacity: 1;
+}
+
+img {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+}
+
+a {
+    display: block;
+    margin-top: 10px;
+}
+
+/* Keep YouTube as a button */
+a[href*="youtube"] {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 16px;
+    background-color: #ff3b3b;
+    color: white;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+/* Move Back to Top away */
+a[href="#top"] {
+    display: block;
+    margin-top: 60px; /* creates separation */
+    font-size: 0.9rem;
+    opacity: 0.7;
+}
